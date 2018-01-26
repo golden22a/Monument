@@ -10,12 +10,11 @@ body {
 }
 header{
     background-image: url(Images/blog_header_bg.jpg) ;
-    background-size: 100%;
+    background-size: cover;
+    background-position:center;
     height: 30%;
     margin:0;
-    background-repeat: no-repeat;
-    
-   
+    background-repeat: no-repeat;  
 }
  #top{
     text-align: center;
@@ -49,6 +48,7 @@ h1{
     text-align: center;
     padding-top: 9%;
     letter-spacing: 20px;
+    position: center;
 }
 img {
     max-width:  95%;
@@ -198,13 +198,15 @@ nav form input[type=submit]:hover{
   #right {
     display: none;
   }
-    
     header{
-        height:17%;
-        font-size: 0.6em;
+        height:40%;
+        font-size: 1em;
         
-        
-        
+    }
+    h1 {
+        padding-top: 24%;
+        padding-left: 2%;
+        letter-spacing: 4px;
     }
     footer input:nth-child(1) {
     width:95%;
