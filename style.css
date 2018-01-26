@@ -139,6 +139,9 @@ textarea +input{
 ::placeholder{
     padding-left: 2%;
 }
+textarea::placeholder{
+    padding-left:1%;    
+}
 footer nav{
 font-size:2em;
 text-align: center;
