@@ -21,6 +21,7 @@ header{
     text-align: center;
      padding-left: 2%;
      padding-top: 5px;
+     font-size:1.5em;
   
 }
 #top a ,h1,h2,h3{
@@ -185,7 +186,7 @@ nav form input[type=submit]:hover{
 .hamburger {
     display:none;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 772px) {
   #right {
     display: none;
   }
