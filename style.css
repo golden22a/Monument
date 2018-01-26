@@ -26,6 +26,7 @@ header{
 }
 #top a ,h1,h2,h3{
     font-family: Raleway;
+    padding: 2px 0;
 }
 h2,h3{
     color:lightslategrey;
@@ -70,6 +71,7 @@ header+section{
 #left {
     width:60%;
     padding-left: 8%;
+    
 }
 #right{
  width:30%;
@@ -80,6 +82,9 @@ header+section{
 #right a {
     text-decoration: none;
     color:lightslategrey;
+}
+p{
+line-height: 1.618em;
 }
 
 nav h2{
