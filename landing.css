@@ -67,7 +67,7 @@ margin-bottom: 10%;
 margin-left:4%;
 line-height: 1.618em;
     text-align: center;
-float:left;
+float: left;
 }
 article img{
     width:100%;
@@ -78,6 +78,26 @@ article h3 {
 }
 #about{
     background-color: cyan;
+    margin: 5% 0;
+    
+}
+section h2,section h3{
+    margin:0;
+    padding: 0.5em;
+    text-align: center;
+}
+#about p {
+    line-height: 1.8em;
+    font-size:0.9em;
+    text-align: center;
+    margin-left:22%;
+    width:60%;
+}
+section::after{
+    content: "";
+    clear: both;
+    display: table;
+
 }
 
 
@@ -92,4 +112,10 @@ article h3 {
 
 .button:hover{
     background-color:dimgrey;
+}
+#gallery img {
+    width:33%;
+}
+#gallery {
+    
 }
