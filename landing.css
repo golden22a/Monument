@@ -107,15 +107,119 @@ section::after{
     color:black;
     font-size: 0.6em;
     padding: 0.6em 3em;
+    
 }
 
 
 .button:hover{
     background-color:dimgrey;
 }
-#gallery img {
-    width:33%;
+#gallery img{
+   display:inline-block;
+    width:32%;
+    padding: 0 2px;
+    margin: 0 2px;
+    vertical-align:top;
 }
-#gallery {
+
+footer{
+    background-color: aqua;
+    margin-bottom: 2%;
+}
+#form-container form{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    margin-bottom: 6%;
+}
+input{
+    margin-bottom: 1%;
+    width:98.5%;
+    border: 1px solid black;
+}
+.top-form input {
+    width:25%;
+    margin-right: 8%;
+    height:4%;
+    display: inline-block;
+}
+textarea {
+    height:30%;
+      width:98.5%;
+    margin-bottom: 1%;
+    border: 1px solid black;
+   
+}
+textarea +input{
+    height:5%;
+      border: 1px solid black;
     
 }
+#form-container h2{
+    text-align: center;
+}
+::-webkit-input-placeholder{
+    padding-left: 2%;
+}
+::-moz-placeholder{
+    padding-left: 2%;
+}
+:-ms-input-placeholder{
+    padding-left: 2%;
+}
+::placeholder{
+    padding-left: 2%;
+}
+textarea::placeholder{
+    padding-left:1%;    
+}
+footer nav{
+font-size:2em;
+text-align: center;
+}
+footer nav i{
+    margin-right:5%; 
+    margin-top:2%;
+}
+footer input{
+    height:5%;
+}
+footer input:nth-child(1) {
+    width:40%;
+}
+footer input:nth-child(1)::-webkit-input-placeholder {
+    text-align: center;
+}
+footer input:nth-child(1)::-moz-placeholder {
+    text-align: center;
+}
+footer input:nth-child(1):-ms-input-placeholder {
+    text-align: center;
+}
+footer input:nth-child(1)::placeholder {
+    text-align: center;
+}
+footer input:nth-child(2) {
+    width:20%;
+}
+footer form {
+    padding-right: 4%;
+    border-bottom: 2px solid;
+    margin-bottom: 0.2%;
+}
+nav form+h2{
+    margin:1em;
+    padding-bottom: 1%;
+    font-size: 0.6em;
+    
+}
+nav form input[type=submit]:hover{
+    background-color: black;
+    color:white;
+}
+    
+
