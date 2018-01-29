@@ -40,10 +40,10 @@ article {
 }
 #top a{
     display: inline-block;
-    margin-right: 80px;
+    margin-right: 15%;
     text-decoration: none;
     color:#d0e6ed;  
-    margin-bottom: 10px;
+    margin-bottom: 2%;
 }
 h1{
     color:white;
@@ -139,7 +139,7 @@ footer{
 input{
     margin-bottom: 1%;
     width:98.5%;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .top-form input {
     width:25%;
@@ -151,12 +151,12 @@ textarea {
     height:30%;
       width:98.5%;
     margin-bottom: 1%;
-    border: 1px solid black;
+    border: 2px solid black;
    
 }
 textarea +input{
     height:5%;
-      border: 1px solid black;
+      border: 2px solid black;
     
 }
 #form-container h2{
@@ -221,5 +221,46 @@ nav form input[type=submit]:hover{
     background-color: black;
     color:white;
 }
+@media screen and (max-width: 840px) {
+  #top a{
+      margin-right: 10%;
+}
+    article {
+        width:100%;
+        
+    }
+    article img{
+        width:50%;
+    }
+    .top-form input{
+        width:98%;
+    }
+}
+@media screen and (max-width: 635px) {
+    #top{
+     display:none;   
+    }
+    .hamburger{
+        position: absolute;
+        display:block;
+        color:black;
+        top:0.5%;
+        left:12%;
+        font-size:2.5em;
+        
+    }
+    .hamburger:hover{
+        color:white;
+        
+    }
+     article img{
+        width:80%;
+    }
     
-
+    #gallery img{
+        width:45%
+    }
+    footer input:nth-child(n) {
+    width:80%;
+}
+}
