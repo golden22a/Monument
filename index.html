@@ -5,6 +5,10 @@
     <link type='text/css' href='http://fonts.googleapis.com/css?family=Raleway:600' />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="landing.css">
+    <script src="jquery.js">
+    </script>
+    <script src="script.js">
+    </script>
 </head>
 <body>
  <nav id="top">
@@ -72,13 +76,21 @@
     </section>
    <section id='form-container'>
     <h2>GET IN TOUCH</h2>
-    <form>
+    <form id="mainform">
         <div class='top-form'>
-    <input type="text" name='name' placeholder="NAME">
+            <div class="formgroup">
+    <input type="text" name='name' placeholder="NAME"> <p class="error_message">Please enter your name</p>
+                </div>
+            <div class="formgroup">
         <input type="email" name='EMAIL' placeholder="EMAIL">
+                <p class="error_message">Please enter your Email</p>
+            </div><div class="formgroup">
             <input type="text" name='subject' placeholder="SUBJECT">
-            </div>
+            <p class="error_message">Please enter the Subject</p>
+            </div></div><div class="formgroupText">
         <textarea placeholder="MESSAGE" name='message'></textarea>
+        <p class="error_message">Please enter your message</p>
+        </div>
         <input type="submit" value="SUBMIT">
     </form>
     </section>
